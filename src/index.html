@@ -3,12 +3,217 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="./images/icon.svg" />
     <title>InkMastery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
+
+    <script src="https://unpkg.com/scrollreveal"></script>
   </head>
   <body>
-    <h1>InkMastery</h1>
+    <header>
+      <div class="container">
+        <nav class="nav">
+          <h1 class="logo">InkMastery</h1>
+          <ul class="nav-list">
+            <li class="nav-list-item">
+              <a class="nav-link" href="#piercing">Piercing</a>
+            </li>
+            <li class="nav-list-item">
+              <a class="nav-link" href="#brows">Brows</a>
+            </li>
+            <li class="nav-list-item">
+              <a class="nav-link" href="#tattoo">Tattoo</a>
+            </li>
+            <li class="nav-list-item">
+              <a class="nav-link" href="#training">Training</a>
+            </li>
+          </ul>
+          <button class="btn">Contact</button>
+        </nav>
+      </div>
+    </header>
 
-    <script type="module" src="./js/main.js"></script>
+    <main>
+      <section id="hero">
+        <div class="container">
+          <div>
+            <div class="hero-content">
+              <img
+                class="hero-img"
+                src="./images/heroimg.jpg"
+                alt="Hero Image"
+                width=""
+                height=""
+              />
+              <h2 class="hero-title">Express Yourself</h2>
+              <p class="hero-text">
+                Professional Tattoo, Piercing and Permanent Brows
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="piercing">
+        <div class="container">
+          <div class="wrapper">
+            <div class="gallery-container">
+              <div class="gallery-item">
+                <img
+                  src="./images/piercing.jpg"
+                  alt="Piercing"
+                  width="500"
+                  height=""
+                />
+              </div>
+              <div class="gallery-text-block">
+                <h1 class="gallery-title">Piercing</h1>
+                <p class="gallery-text">
+                  Piercings are a fantastic way to express your individuality
+                  and add a unique touch to your look. Our studio offers a
+                  diverse range of piercing options, from classic ear piercings
+                  to more elaborate and trendy placements. Each piercing is
+                  performed with precision and care using high-quality,
+                  hypoallergenic materials to ensure both safety and comfort. We
+                  take pride in our meticulous hygiene practices and
+                  personalized service, making sure your piercing experience is
+                  smooth and enjoyable. Explore our range of piercing styles and
+                  let our expert team help you find the perfect addition to your
+                  personal style.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="brows">
+        <div class="container">
+          <div class="wrapper">
+            <div class="gallery-container">
+              <div class="gallery-text-block">
+                <h1 class="gallery-title">Brows</h1>
+                <p class="gallery-text">
+                  Brow lamination is the ultimate solution for achieving fuller,
+                  perfectly shaped brows with a polished look. This innovative
+                  treatment tames unruly brows, fills in sparse areas, and gives
+                  them a smooth, uniform appearance. Our brow lamination process
+                  involves gently restructuring the brow hairs to stay in place,
+                  enhancing their natural shape and creating a sleek,
+                  well-groomed finish. Using top-quality products, our skilled
+                  technicians ensure that your brows look flawless and stay in
+                  place for weeks. Experience the convenience of low-maintenance
+                  brows that always look on point, and let us help you achieve
+                  the brow shape you’ve always desired.
+                </p>
+              </div>
+              <div class="gallery-item">
+                <img src="./images/brows.jpg" alt="Brows" width="" height="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="tattoo">
+        <div class="container">
+          <div class="wrapper">
+            <div class="gallery-container">
+              <div class="gallery-item">
+                <img src="./images/tattoo.jpg" alt="" width="" height="" />
+              </div>
+              <div class="gallery-text-block">
+                <h1 class="gallery-title">Tattoo</h1>
+                <p class="gallery-text">
+                  Tattoos are more than just body art; they are a way to express
+                  your individuality and create a unique piece of art on your
+                  skin. Our studio offers a wide range of styles and techniques,
+                  from traditional and realistic to abstract and artistic. We
+                  work closely with each client to ensure that your tattoo
+                  reflects your personal style and vision. Using only
+                  high-quality pigments and sterile equipment, we prioritize
+                  safety and longevity in every design. Trust our skilled
+                  artists to transform your ideas into a one-of-a-kind tattoo
+                  that you'll cherish for years to come.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="training">
+        <div class="container">
+          <div class="wrapper">
+            <div class="gallery-container">
+              <div class="gallery-text-block">
+                <h1 class="gallery-title">Training</h1>
+                <p class="gallery-text">
+                  Unlock your potential and elevate your skills with our
+                  comprehensive training programs in piercing, tattooing, and
+                  brow lamination. Our expert-led courses are designed to
+                  provide you with the knowledge and hands-on experience needed
+                  to excel in these dynamic fields. Whether you are a beginner
+                  eager to start a new career or a seasoned professional looking
+                  to refine your techniques, our training sessions offer
+                  practical insights, industry best practices, and personalized
+                  guidance to help you succeed.
+                </p>
+              </div>
+              <div class="gallery-item">
+                <img src="./images/training.jpg" alt="" width="" height="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="wrapper">
+          <div class="footer-container">
+            <div class="footer-section">
+              <h2>We are waiting you!</h2>
+              <p>
+                We can't wait to welcome you to our studio! Whether you're
+                considering a new piercing, perfecting your brows, or getting a
+                tattoo, we're here to guide you every step of the way. We're
+                looking forward to helping you express your unique style — let's
+                create something amazing together!
+              </p>
+            </div>
+
+            <div class="footer-address">
+              <h2>Contact Us:</h2>
+              <address>
+                <ul>
+                  <li>
+                    <p>+1 (123) 456-7890</p>
+                  </li>
+                  <li>
+                    <p>info@example.com</p>
+                  </li>
+                  <li><p>123 Example St, City, Country</p></li>
+                </ul>
+              </address>
+            </div>
+          </div>
+
+          <div class="footer-rights">
+            <p>&copy; 2024 InkMastery. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/smooth-scroll/dist/smooth-scroll.min.js"></script>
+    <script type="module" src="./js/main.js" defer></script>
   </body>
 </html>

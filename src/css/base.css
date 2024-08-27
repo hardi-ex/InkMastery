@@ -1,0 +1,161 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--light-white);
+  background-color: var(--black);
+}
+
+/* Header */
+
+header .container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.logo {
+  font-size: 28px;
+  pointer-events: none;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.nav-link {
+  display: block;
+  border: 1px solid var(--light-white);
+  border-radius: 7px;
+  text-align: center;
+  width: 100px;
+  height: 36px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  transition: color 250ms linear, background-color 250ms linear;
+
+  &:hover {
+    color: var(--black);
+    background-color: var(--light-white);
+  }
+}
+
+.btn {
+  display: block;
+  width: 100px;
+  height: 36px;
+  border: 1px solid var(--light-white);
+  border-radius: 7px;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+  color: var(--black);
+  font-weight: 600;
+
+  transition: color 250ms linear, background-color 250ms linear;
+
+  &:hover {
+    color: var(--light-white);
+    background-color: var(--black);
+  }
+}
+
+/* Main */
+
+/** Hero */
+
+#hero {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.hero-content {
+  position: relative;
+}
+
+.hero-img {
+  border-radius: 20px;
+}
+
+.hero-title {
+  font-size: 54px;
+  position: absolute;
+  top: 550px;
+  left: 700px;
+}
+
+.hero-text {
+  position: absolute;
+  top: 619px;
+  left: 700px;
+}
+
+/** Sections */
+
+.gallery-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+}
+
+.gallery-text-block {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.gallery-title {
+  font-size: 36px;
+}
+
+.gallery-text {
+  font-size: 18px;
+}
+
+/** Footer */
+
+footer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 80px;
+}
+
+.footer-rights {
+  margin-top: 20px;
+}
+
+.footer-section {
+  width: 70%;
+}
+
+.footer-address {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}

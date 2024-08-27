@@ -1,4 +1,11 @@
 @import 'modern-normalize/modern-normalize.css';
 @import url('./reset.css');
+@import url('./container.css');
+@import url('./base.css');
+
 :root {
+  --black: #0f0f0f;
+  --dark-grey: #232324;
+  --grey: #3b3b3b;
+  --light-white: #e6e1f3;
 }
